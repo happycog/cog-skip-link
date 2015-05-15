@@ -20,3 +20,8 @@ function skipLink() {
     }).focus(); // focus on the content container
   });
 };
+
+
+$(document).ready(function() {
+  skipLink();
+});
