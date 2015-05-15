@@ -1,0 +1,35 @@
+{
+  "name": "Skip Link",
+  "description": "Some javascript to make skiplinks tabbable",
+  "version": "1.0.0",
+  "main": "skip-link.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "NEWS.md",
+    "Rakefile",
+    "bin",
+    "lib",
+    "neat.gemspec",
+    "sache.json",
+    "spec",
+    "test"
+  ],
+  "keywords": [
+    
+  ],
+  "authors": [
+    "Happy Cog (http://www.happycog.com)"
+  ],
+  "homepage": "http://code.happycog.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happycog/cog-skip-link.git"
+  },
+  "dependencies": {
+    
+  }
+}
