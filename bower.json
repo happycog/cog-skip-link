@@ -30,6 +30,6 @@
     "url": "https://github.com/happycog/cog-skip-link.git"
   },
   "dependencies": {
-    
+    "jquery": "~2.1.4"
   }
 }
