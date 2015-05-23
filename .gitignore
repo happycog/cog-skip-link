@@ -1,0 +1,7 @@
+.DS_Store
+*.sassc
+*.scssc
+public
+node_modules/
+bower_components/
+npm-debug.log

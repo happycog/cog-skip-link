@@ -1,9 +1,9 @@
 // Source: Big Nerd Ranch, "Web Accessibility: Skip Navigation Links"
 // http://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/
 
-function skipLink() {
+function skipLink(el) {
   // bind a click event to the 'skip' link
-  $(".skip").click(function(event){
+  $(el).click(function(event){
 
     // strip the leading hash and declare
     // the content we're skipping to
@@ -23,5 +23,5 @@ function skipLink() {
 
 
 $(document).ready(function() {
-  skipLink();
+  skipLink('.skip-link');
 });

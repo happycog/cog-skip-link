@@ -1,0 +1,30 @@
+// skip module data map
+$skip: (
+	padding: 1em 1.5em,
+	background: gray,
+	color: white
+);
+
+
+// basic functionalty for the skip link
+.skip-link {
+	position: absolute;
+	display: inline-block;
+	top: -1000px;
+	left: -1000px;
+
+	&:active,
+	&:focus,
+	&:hover {
+		top: 0;
+		left: 0;
+	}
+}
+
+
+// theming for the skip link
+.skip-link {
+	padding: map-get($skip, padding);
+	background: map-get($skip, background);
+	color: map-get($skip, color);
+}

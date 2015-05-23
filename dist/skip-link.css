@@ -1,0 +1,13 @@
+.skip-link {
+  position: absolute;
+  display: inline-block;
+  top: -1000px;
+  left: -1000px; }
+  .skip-link:active, .skip-link:focus, .skip-link:hover {
+    top: 0;
+    left: 0; }
+
+.skip-link {
+  padding: 1em 1.5em;
+  background: gray;
+  color: white; }

@@ -1,0 +1,28 @@
+{
+  "name": "cog-skip-link",
+  "version": "0.1.0",
+  "description": "Accessible skip link.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "^0.8.1",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-htmlhint": "*",
+    "grunt-sass": "^0.17.0",
+    "matchdep": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happycog/cog-skip-link.git"
+  },
+  "author": "Happy Cog",
+  "bugs": {
+    "url": "https://github.com/happycog/cog-skip-link/issues"
+  },
+  "homepage": "https://github.com/happycog/cog-skip-link",
+  "compileTemplates": true
+}
