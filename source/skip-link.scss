@@ -1,9 +1,9 @@
 // skip module data map
-$skip: (
+$cog-skip-link: (
 	padding: 1em 1.5em,
 	background: gray,
 	color: white
-);
+) !default;
 
 
 // basic functionalty for the skip link
@@ -22,9 +22,8 @@ $skip: (
 }
 
 
-// theming for the skip link
 .skip-link {
-	padding: map-get($skip, padding);
-	background: map-get($skip, background);
-	color: map-get($skip, color);
+	padding: map-get($cog-skip-link, padding);
+	background: map-get($cog-skip-link, background);
+	color: map-get($cog-skip-link, color);
 }
