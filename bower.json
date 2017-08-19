@@ -1,5 +1,5 @@
 {
-  "name": "skip-link",
+  "name": "cog-skip-link",
   "description": "Some javascript to make skiplinks tabbable",
   "version": "1.0.0",
   "main": "skip-link.js",
